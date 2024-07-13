@@ -8,8 +8,8 @@ const Hero = () => {
         <section className=" bg-gradient-to-b from-black/100 to-[#282828]/100 text-white">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-12 px-6 pt-0 pb-0">
                 <div className="flex flex-wrap">
-                    <div className="w-full md:w-1/2">
-                        <div className="flex flex-col justify-center min-h-screen">
+                    <div className="w-full md:w-1/2 flex justify-center">
+                        <div className="flex flex-col justify-center">
                             <h1 className="hero-title text-5xl font-bold mb-4">
                                 Small Start.<span className="text-red-500">AI</span>
                             </h1>
@@ -23,7 +23,7 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center">
+            <div className="flex justify-center pb-3">
                 <div className="bg-red-500 rounded-full h-3 w-3 mx-1"></div>
                 <div className="bg-gray-400 rounded-full h-3 w-3 mx-1"></div>
                 <div className="bg-gray-400 rounded-full h-3 w-3 mx-1"></div>
