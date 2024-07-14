@@ -6,6 +6,7 @@ import Services from './components/Services'
 import BuildDigital from './components/BuildDigital'
 import Testimonials from './components/Testimonials'
 import CallToAction from './components/CallToAction'
+import Footer from './components/Footer'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -18,6 +19,7 @@ function App() {
       <BuildDigital />
       <Testimonials />
       <CallToAction />
+      <Footer />
     </>
   )
 }

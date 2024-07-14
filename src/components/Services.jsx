@@ -28,12 +28,12 @@ const Services = () => {
         </p>
         <div className="flex flex-wrap justify-center items-center space-y-6 md:space-y-0 md:space-x-6">
           {services.map((service, index) => (
-            <div key={index} className="bg-[#262626] rounded-lg overflow-hidden shadow-lg w-full md:w-1/4 p-4">
+            <div key={index} className="bg-[#262626] rounded-3xl overflow-hidden shadow-lg w-full md:w-1/4 ">
               <img src={service.image} alt={service.title} className="w-full h-48 object-cover" />
-              <div className="p-4">
+              <div className="p-5">
                 <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
                 <p className="mb-4 text-[#AFAFAF]">{service.description}</p>
-                <button className="bg-red-600 text-white font-bold py-2 px-4 rounded-full transition duration-300 hover:bg-red-700">
+                <button className="bg-red-600 text-white py-2 px-4 rounded-lg transition duration-300 hover:bg-red-700 mx-auto w-4/5">
                   Learn More
                 </button>
               </div>
