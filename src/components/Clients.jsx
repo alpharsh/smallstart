@@ -10,12 +10,12 @@ const Clients = () => {
         </p>
         <h3 className="text-2xl font-semibold mb-6">Our Satisfied Clients</h3>
         <div className="flex flex-wrap justify-center items-center space-x-4 space-y-4">
-          <img src="\src\assets\clientimg\client1.png" alt="Client 1" className="h-16" />
-          <img src="\src\assets\clientimg\client2.png" alt="Client 3" className="h-16" />
-          <img src="\src\assets\clientimg\client3.png" alt="Client 2" className="h-16" />
-          <img src="\src\assets\clientimg\client4.png" alt="Client 4" className="h-16" />
-          <img src="\src\assets\clientimg\client5.png" alt="Client 5" className="h-16" />
-          <img src="\src\assets\clientimg\client6.png" alt="Client 6" className="h-16" />
+          <img src="/clientimg/client1.png" alt="Client 1" className="h-16" />
+          <img src="/clientimg/client2.png" alt="Client 3" className="h-16" />
+          <img src="/clientimg/client3.png" alt="Client 2" className="h-16" />
+          <img src="/clientimg/client4.png" alt="Client 4" className="h-16" />
+          <img src="/clientimg/client5.png" alt="Client 5" className="h-16" />
+          <img src="/clientimg/client6.png" alt="Client 6" className="h-16" />
         </div>
       </div>
     </section>

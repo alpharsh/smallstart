@@ -5,19 +5,19 @@ const testimonials = [
     name: "Rahul Verma",
     handle: "Stealth Company",
     text: "This firm elevated our online presence! Amazing content, stunning product photos, and effective influencer campaigns.",
-    avatar: "./src/assets/testimonialsimg/man1.png"
+    avatar: "/testimonialsimg/man1.png"
   },
   {
     name: "Khushi",
     handle: "FitFashionista88",
     text: "Their SEO and content expertise put my fitness brand on the map! Highly recommend.",
-    avatar: "./src/assets/testimonialsimg/women1.png"
+    avatar: "/testimonialsimg/women1.png"
   },
   {
     name: "TechStartUpGuru",
     handle: "TechStartUpGuru",
     text: "This firm's full-service approach rocketed our startup's online success. Killer website, content, and influencers!",
-    avatar: "./src/assets/testimonialsimg/man2.png"
+    avatar: "/testimonialsimg/man2.png"
   }
 ];
 

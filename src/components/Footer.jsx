@@ -6,7 +6,7 @@ const Footer = () => {
             <footer className="bg-white text-black py-10 px-6 md:pb-20 rounded-t-3xl">
                 <div className="container mx-auto flex flex-col md:flex-row items-center justify-around">
                     <div className="flex flex-col items-center md:items-start mb-8 md:mb-0">
-                        <img src="\src\assets\logo-dark.png" alt="Small Start AI" className="md:w-56 w-48 " />
+                        <img src="/logo-dark.png" alt="Small Start AI" className="md:w-56 w-48 " />
                         <p className="text-center md:text-left mx-auto md:w-[32rem] font-light">
                             We provide app development, website development and digital marketing services. We can help you achieve success with proven track record in the market.
                         </p>

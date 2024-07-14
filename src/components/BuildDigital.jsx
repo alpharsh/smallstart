@@ -9,7 +9,7 @@ const BuildDigital = () => {
       </div>
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-6 space-y-8 md:space-y-0 md:space-x-8">
         <div className="md:w-1/2 flex flex-col items-center md:items-start">
-          <img src="\src\assets\digitalimg\digital1.png" alt="We Build" className="w-full mb-4" />
+          <img src="/digitalimg/digital1.png" alt="We Build" className="w-full mb-4" />
           <div>
             <h3 className="text-2xl font-bold mb-4">Who We Are ?</h3>
             <p className="text-lg">
@@ -24,7 +24,7 @@ const BuildDigital = () => {
               At SmallStart, we offer a range of services to help your business succeed. From app development and website development to digital marketing and more, we have everything you need to take your business to the next level.
             </p>
           </div>
-          <img src="\src\assets\digitalimg\digital2.png" alt="Business" className="w-full" />
+          <img src="/digitalimg/digital2.png" alt="Business" className="w-full" />
         </div>
       </div>
     </section>

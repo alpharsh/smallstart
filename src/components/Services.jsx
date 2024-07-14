@@ -4,17 +4,17 @@ const services = [
   {
     title: 'Product Photography',
     description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
-    image: 'src/assets/servicesimg/services1.png',
+    image: '/servicesimg/services1.png',
   },
   {
     title: 'Content Writing',
     description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
-    image: 'src/assets/servicesimg/services2.png',
+    image: '/servicesimg/services2.png',
   },
   {
     title: 'Influencer Marketing',
     description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
-    image: 'src/assets/servicesimg/services3.png',
+    image: '/servicesimg/services3.png',
   },
 ];
 
