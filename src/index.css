@@ -47,13 +47,6 @@
   z-index: 2;
 }
 
-@media (max-width: 768px) {
-  .logos:before,
-  .logos:after {
-    width: 50px;
-  }
-}
-
 .logos:before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
@@ -76,4 +69,15 @@
 .logos-slide img {
   height: 50px;
   margin: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .logos:before,
+  .logos:after {
+    width: 50px;
+  }
+  .logos-slide img {
+    height: 40px;
+    margin: 0 20px;
+  }
 }
