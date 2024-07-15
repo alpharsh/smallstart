@@ -57,9 +57,9 @@
   background: linear-gradient(to right, rgba(255, 255, 255, 0), #000000);
 }
 
-/* .logos:hover .logos-slide {
+.logos:hover .logos-slide {
   animation-play-state: paused;
-} */
+}
 
 .logos-slide {
   display: inline-flex;

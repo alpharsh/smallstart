@@ -32,8 +32,8 @@ const Testimonials = () => {
       </div>
       <div className="mt-32 w-3/4 mx-auto grid gap-20 lg:grid-cols-3 lg:max-w-none">
         {testimonials.map((testimonial, index) => (
-          <div key={index} className="relative flex flex-col rounded-2xl shadow-lg bg-black text-white p-4">
-            <div className="absolute -top-16 left-1/2 transform -translate-x-1/2">
+          <div key={index} className="relative flex flex-col rounded-2xl shadow-lg bg-black text-white p-4 group transition duration-300 ease-in-out hover:shadow-custom">
+            <div className="absolute -top-16 left-1/2 transform -translate-x-1/2 group-hover:translate-y-[-10px] transition duration-300 ease-in-out">
               <img
                 className="h-32 w-32 rounded-full"
                 src={testimonial.avatar}
