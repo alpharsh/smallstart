@@ -47,6 +47,13 @@
   z-index: 2;
 }
 
+@media (max-width: 768px) {
+  .logos:before,
+  .logos:after {
+    width: 50px;
+  }
+}
+
 .logos:before {
   left: 0;
   background: linear-gradient(to left, rgba(255, 255, 255, 0), #000000);
@@ -63,7 +70,7 @@
 
 .logos-slide {
   display: inline-flex;
-  animation: 10s slide infinite linear;
+  animation: 20s slide infinite linear;
 }
 
 .logos-slide img {
