@@ -46,26 +46,23 @@ const services = [
 const Services = () => {
   const scrollRef = useRef(null);
 
-  const scrollLeft = () => {
-    scrollRef.current.scrollBy({ left: -350, behavior: 'smooth' });
-  };
-
-  const scrollRight = () => {
-    scrollRef.current.scrollBy({ left: 350, behavior: 'smooth' });
+  const scrollByCard = (direction) => {
+    const cardWidth = scrollRef.current.querySelector('div').offsetWidth + 24; // Card width + margin
+    scrollRef.current.scrollBy({ left: direction * cardWidth, behavior: 'smooth' });
   };
 
   return (
-    <section className="bg-black md:mt-20 text-white py-12 px-6 mx-auto md:w-3/4">
+    <section className="bg-black md:mt-20 text-white py-12 px-6 mx-auto md:w-3/4 relative">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">What We Offer</h2>
         <p className="text-lg mb-8 text-[#AFAFAF] mx-auto md:w-2/3">
           At SmallStart, we offer a range of services to help your business succeed. From app development and website development to digital marketing and more, we have everything you need to take your business to the next level.
         </p>
         <div className="relative">
-          <button onClick={scrollLeft} className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
+          <button onClick={() => scrollByCard(-1)} className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
             <i className="fas fa-chevron-left"></i>
           </button>
-          <div ref={scrollRef} className="flex overflow-x-scroll space-x-6 scrollbar-hide">
+          <div ref={scrollRef} className="flex overflow-x-scroll space-x-6 scrollbar-hide mx-auto w-[93%]">
             {services.map((service, index) => (
               <div key={index} className="group bg-[#262626] rounded-3xl overflow-hidden shadow-lg w-full md:w-80 flex-shrink-0 border border-custom-gray hover:shadow-custom2">
                 <div className='overflow-hidden'>
@@ -75,17 +72,14 @@ const Services = () => {
                   <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
                   <p className="mb-4 text-[#AFAFAF]">{service.description}</p>
                 </div>
-                {/* <div>
-                  <button className="bg-red-600 text-white py-2 px-4 rounded-lg transition duration-300 hover:bg-red-700 mx-auto w-4/5">
-                    Learn More
-                  </button>
-                </div> */}
               </div>
             ))}
           </div>
-          <button onClick={scrollRight} className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
+          <button onClick={() => scrollByCard(1)} className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
             <i className="fas fa-chevron-right"></i>
           </button>
+          <div className="absolute inset-y-0 left-0 w-8 md:w-24 bg-gradient-to-r from-black to-transparent pointer-events-none"></div>
+          <div className="absolute inset-y-0 right-0 w-8 md:w-20 bg-gradient-to-l from-black to-transparent pointer-events-none"></div>
         </div>
       </div>
     </section>
