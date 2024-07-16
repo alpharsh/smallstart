@@ -19,7 +19,7 @@ const Header = () => {
       </nav>
       <div className="md:hidden">
         <button onClick={toggleMenu} className="text-white focus:outline-none">
-          <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'} fa-2x`}></i>
+          <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`} style={{ fontSize: '1.3em' }}></i>
         </button>
       </div>
       {isOpen && (
