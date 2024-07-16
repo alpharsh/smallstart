@@ -8,9 +8,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black bg-opacity-90 backdrop-blur-sm p-4 z-20 flex justify-between items-center sticky top-0 border-b border-gray-800 rounded-bl-3xl rounded-br-3xl">
+    <header className="bg-black bg-opacity-90 backdrop-blur-sm p-3 z-20 flex justify-between items-center sticky top-0 border-b border-gray-800 rounded-bl-3xl rounded-br-3xl">
       <div className="flex items-center">
-        <img src="/logo.png" alt="Logo" className="h-10 mr-3" />
+        <img src="/logo.png" alt="Logo" className="h-9 mr-3" />
       </div>
       <nav className="hidden md:flex items-center space-x-4 md:mr-6">
         <a href="#home" className="text-white">Home</a>
