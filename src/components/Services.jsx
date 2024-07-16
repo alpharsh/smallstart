@@ -78,7 +78,7 @@ const Services = () => {
           <button onClick={() => scrollByCard(1)} className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
             <i className="fas fa-chevron-right"></i>
           </button>
-          <div className="absolute inset-y-0 left-0 w-8 md:w-24 bg-gradient-to-r from-black to-transparent pointer-events-none"></div>
+          <div className="absolute inset-y-0 left-0 w-8 md:w-20 bg-gradient-to-r from-black to-transparent pointer-events-none"></div>
           <div className="absolute inset-y-0 right-0 w-8 md:w-20 bg-gradient-to-l from-black to-transparent pointer-events-none"></div>
         </div>
       </div>
