@@ -8,7 +8,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-black p-4 z-20 flex justify-between items-center sticky top-0 border-b border-gray-800 rounded-bl-3xl rounded-br-3xl">
+    <header className="bg-black bg-opacity-90 backdrop-blur-sm p-4 z-20 flex justify-between items-center sticky top-0 border-b border-gray-800 rounded-bl-3xl rounded-br-3xl">
       <div className="flex items-center">
         <img src="/logo.png" alt="Logo" className="h-10 mr-3" />
       </div>
