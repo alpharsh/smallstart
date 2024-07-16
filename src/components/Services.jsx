@@ -2,28 +2,43 @@ import React, { useRef } from 'react';
 
 const services = [
   {
-    title: 'Product Photography',
-    description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
+    title: 'Graphics & Animation Support',
+    description: 'Elevate your brand with stunning graphics and animations that captivate and engage your audience.',
     image: '/servicesimg/services1.png',
   },
   {
-    title: 'Content Writing',
-    description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
+    title: 'Content Support',
+    description: 'Drive engagement with compelling content that resonates with your audience and boosts your brand\'s online presence.',
     image: '/servicesimg/services2.png',
   },
   {
-    title: 'Content Writing',
-    description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
+    title: 'Video Editing',
+    description: 'Transform your raw footage into polished, professional videos that tell your brand\'s story and captivate viewers.',
     image: '/servicesimg/services2.png',
   },
   {
-    title: 'Influencer Marketing',
-    description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
+    title: 'Application Development',
+    description: 'Turn your ideas into powerful, user-friendly applications that enhance your business and delight your customers.',
+    image: '/servicesimg/services3.png',
+  },
+  {
+    title: 'Web Development',
+    description: 'Create a seamless online experience with a visually stunning and highly functional website that stands out in the digital world.',
+    image: '/servicesimg/services3.png',
+  },
+  {
+    title: 'Review Seeding',
+    description: 'Build trust and credibility with authentic reviews that highlight your brand’s strengths and attract new customers.',
+    image: '/servicesimg/services3.png',
+  },
+  {
+    title: 'Target-Based Offline Marketing',
+    description: 'Reach your audience where they are with strategic offline marketing campaigns tailored to your brand’s unique goals.',
     image: '/servicesimg/services3.png',
   },
   {
     title: 'Influencer Marketing',
-    description: 'Our Influencer Marketing service is a game-changer for brands seeking to broaden their audience reach and increase brand awareness.',
+    description: 'Partner with influential voices to expand your reach, increase brand awareness, and drive impactful engagement.',
     image: '/servicesimg/services3.png',
   },
 ];
