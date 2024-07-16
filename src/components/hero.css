@@ -1,0 +1,22 @@
+.cursor{
+    background-color: rgba(223, 63, 63, 0.915);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* filter: blur(4px); */
+    position: fixed;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    /* transition: 0.05s all ; */
+}
+*{
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+.fh:hover ~ .cursor{
+    transform: scale(2.4);
+}
+.cur{
+    cursor: none;
+}

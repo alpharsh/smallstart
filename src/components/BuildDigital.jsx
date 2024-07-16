@@ -1,6 +1,7 @@
 import React from 'react';
 
 const BuildDigital = () => {
+
   return (
     <section className="bg-black text-white py-12 px-6">
       <div className="container mx-auto text-center mb-12">
