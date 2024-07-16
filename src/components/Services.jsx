@@ -62,7 +62,7 @@ const Services = () => {
           <button onClick={() => scrollByCard(-1)} className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
             <i className="fas fa-chevron-left"></i>
           </button>
-          <div ref={scrollRef} className="flex overflow-x-scroll space-x-6 scrollbar-hide mx-auto w-[93%]">
+          <div ref={scrollRef} className="flex overflow-x-scroll space-x-6 rounded-3xl scrollbar-hide mx-auto w-[93%]">
             {services.map((service, index) => (
               <div key={index} className="group bg-[#262626] rounded-3xl overflow-hidden shadow-lg w-full md:w-80 flex-shrink-0 border border-custom-gray hover:shadow-custom2">
                 <div className='overflow-hidden'>
@@ -78,8 +78,6 @@ const Services = () => {
           <button onClick={() => scrollByCard(1)} className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
             <i className="fas fa-chevron-right"></i>
           </button>
-          <div className="absolute inset-y-0 left-0 w-8 md:w-20 bg-gradient-to-r from-black to-transparent pointer-events-none"></div>
-          <div className="absolute inset-y-0 right-0 w-8 md:w-20 bg-gradient-to-l from-black to-transparent pointer-events-none"></div>
         </div>
       </div>
     </section>
