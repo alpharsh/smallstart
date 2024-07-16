@@ -4,42 +4,42 @@ const services = [
   {
     title: 'Graphics & Animation Support',
     description: 'Elevate your brand with stunning graphics and animations that captivate and engage your audience.',
-    image: '/servicesimg/services1.png',
+    image: 'https://images.unsplash.com/photo-1635492491273-455af7728453?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     title: 'Content Support',
     description: 'Drive engagement with compelling content that resonates with your audience and boosts your brand\'s online presence.',
-    image: '/servicesimg/services2.png',
+    image: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     title: 'Video Editing',
     description: 'Transform your raw footage into polished, professional videos that tell your brand\'s story and captivate viewers.',
-    image: '/servicesimg/services2.png',
+    image: 'https://images.unsplash.com/photo-1502209877429-d7c6df9eb3f9?q=80&w=2066&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     title: 'Application Development',
     description: 'Turn your ideas into powerful, user-friendly applications that enhance your business and delight your customers.',
-    image: '/servicesimg/services3.png',
+    image: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     title: 'Web Development',
     description: 'Create a seamless online experience with a visually stunning and highly functional website that stands out in the digital world.',
-    image: '/servicesimg/services3.png',
+    image: 'https://images.unsplash.com/photo-1558174685-430919a96c8d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     title: 'Review Seeding',
     description: 'Build trust and credibility with authentic reviews that highlight your brand’s strengths and attract new customers.',
-    image: '/servicesimg/services3.png',
+    image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    title: 'Target-Based Offline Marketing',
+    title: 'Offline Marketing',
     description: 'Reach your audience where they are with strategic offline marketing campaigns tailored to your brand’s unique goals.',
-    image: '/servicesimg/services3.png',
+    image: 'https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
     title: 'Influencer Marketing',
     description: 'Partner with influential voices to expand your reach, increase brand awareness, and drive impactful engagement.',
-    image: '/servicesimg/services3.png',
+    image: 'https://plus.unsplash.com/premium_photo-1665203450678-f225f576b509?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
 ];
 
@@ -47,11 +47,11 @@ const Services = () => {
   const scrollRef = useRef(null);
 
   const scrollLeft = () => {
-    scrollRef.current.scrollBy({ left: -300, behavior: 'smooth' });
+    scrollRef.current.scrollBy({ left: -350, behavior: 'smooth' });
   };
 
   const scrollRight = () => {
-    scrollRef.current.scrollBy({ left: 300, behavior: 'smooth' });
+    scrollRef.current.scrollBy({ left: 350, behavior: 'smooth' });
   };
 
   return (
@@ -62,8 +62,8 @@ const Services = () => {
           At SmallStart, we offer a range of services to help your business succeed. From app development and website development to digital marketing and more, we have everything you need to take your business to the next level.
         </p>
         <div className="relative">
-          <button onClick={scrollLeft} className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-black text-white rounded-full shadow-md hover:bg-gray-800 transition duration-300">
-          <i className="fas fa-chevron-left"></i>
+          <button onClick={scrollLeft} className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
+            <i className="fas fa-chevron-left"></i>
           </button>
           <div ref={scrollRef} className="flex overflow-x-scroll space-x-6 scrollbar-hide">
             {services.map((service, index) => (
@@ -71,18 +71,20 @@ const Services = () => {
                 <div className='overflow-hidden'>
                   <img src={service.image} alt={service.title} className="w-full h-48 object-cover transition duration-300 ease-in-out group-hover:scale-105" />
                 </div>
-                <div className="p-5">
+                <div className="p-5 ">
                   <h3 className="text-xl font-semibold mb-2">{service.title}</h3>
                   <p className="mb-4 text-[#AFAFAF]">{service.description}</p>
+                </div>
+                {/* <div>
                   <button className="bg-red-600 text-white py-2 px-4 rounded-lg transition duration-300 hover:bg-red-700 mx-auto w-4/5">
                     Learn More
                   </button>
-                </div>
+                </div> */}
               </div>
             ))}
           </div>
-          <button onClick={scrollRight} className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-black text-white rounded-full shadow-md hover:bg-gray-800 transition duration-300">
-          <i className="fas fa-chevron-right"></i>
+          <button onClick={scrollRight} className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 bg-red-600 text-white rounded-full shadow-md hover:bg-red-800 transition duration-300">
+            <i className="fas fa-chevron-right"></i>
           </button>
         </div>
       </div>
