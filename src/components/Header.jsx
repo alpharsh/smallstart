@@ -23,7 +23,7 @@ const Header = () => {
         </button>
       </div>
       {isOpen && (
-        <div className="absolute top-16 left-0 w-full bg-black flex flex-col items-center space-y-4 p-4 md:hidden">
+        <div className="absolute top-16 right-2 rounded-xl mx-auto w-3/4 bg-black flex flex-col items-center space-y-4 p-4 md:hidden animate-fadeIn">
           <a href="#home" className="text-white">Home</a>
           <a href="#services" className="text-white" >Services</a>
           <a href="#contact" className="bg-red-600 hover:bg-red-700 text-white font-bold py-1 px-4 rounded-full shadow-lg transition duration-300">Contact</a>
