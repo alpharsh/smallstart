@@ -27,7 +27,7 @@ const Footer = () => {
                         <div className="flex flex-col">
                             <h4 className="font-bold ">Follow Us</h4>
                             <div className='ml-0  flex flex-row justify-between text-2xl md:space-x-2'>
-                                <a href="https://instagram.com" target="_blank">
+                                <a href="https://www.instagram.com/smallstartofficial?igsh=dG5nbnNyZTUwMWth" target="_blank">
                                     <i class="fa-brands fa-instagram"></i></a>
                                 <a href="https://facebook.com" target="_blank" >
                                     <i class="fa-brands fa-square-facebook"></i>
