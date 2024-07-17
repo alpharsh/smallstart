@@ -18,7 +18,7 @@ const Header = () => {
         <a href="#contact" className="bg-red-600 hover:bg-red-700 text-white font-bold py-1 px-4 rounded-full shadow-lg transition duration-300">Contact</a>
       </nav>
       <div className="md:hidden">
-        <button onClick={toggleMenu} className="text-white focus:outline-none">
+        <button onClick={toggleMenu} className="text-white focus:outline-none mr-3">
           <i className={`fas ${isOpen ? 'fa-times' : 'fa-bars'}`} style={{ fontSize: '1.3em' }}></i>
         </button>
       </div>
