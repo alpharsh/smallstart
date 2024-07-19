@@ -1,8 +1,36 @@
-# React + Vite
+# Smallstart.AI : A Digital marketing platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to the repository for SmallStart.ai's website, a sleek and modern digital marketing platform built with React and Tailwind CSS. This project aims to provide a robust and responsive user interface to showcase the company's services and capabilities.
 
-Currently, two official plugins are available:
+### Technologies Used
+- **React:** A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool for modern web projects.
+- **Tailwind CSS:** A utility-first CSS framework for rapid UI development.
+- **Node.js & npm:** The runtime environment and package manager for JavaScript.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Installation
+
+1. Clone the repository:
+
+    ```bash
+    git clone https://github.com/alpharsh/smallstart.git
+    cd smallstart
+    ```
+
+2. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+3. Start the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+4. Open your browser and navigate to `http://localhost:3000` to view the website.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/alpharsh/smallstart?tab=MIT-1-ov-file) file for details.
