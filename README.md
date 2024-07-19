@@ -1,6 +1,6 @@
 # Smallstart.AI : A Digital marketing platform
 
-Welcome to the repository for SmallStart.ai's website, a sleek and modern digital marketing platform built with React and Tailwind CSS. This project aims to provide a robust and responsive user interface to showcase the company's services and capabilities.
+Welcome to the repository for SmallStart.AI's website, a sleek and modern digital marketing platform built with React and Tailwind CSS. This project aims to provide a robust and responsive user interface to showcase the company's services and capabilities.
 
 ### Technologies Used
 - **React:** A JavaScript library for building user interfaces.
