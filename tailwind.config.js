@@ -15,7 +15,6 @@ module.exports = {
       },
       boxShadow: {
         custom: '0 24px 72px 0 rgb(115 104 104 / 25%)',
-        custom2: '0 24px 72px 0 rgb(163 57 57 / 25%)',
       },
       colors: {
         'custom-gray': 'rgba(107, 114, 128, 0.3)',
@@ -71,6 +70,15 @@ module.exports = {
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      keyframes: {
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+      },
+      animation: {
+        fadeIn: 'fadeIn 0.4s ease-out',
       },
     },
   },
