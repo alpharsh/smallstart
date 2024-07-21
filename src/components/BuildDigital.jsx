@@ -53,6 +53,7 @@ const BuildDigital = () => {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
