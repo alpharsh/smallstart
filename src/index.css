@@ -13,11 +13,34 @@
 
 .hero-title {
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 88px;
 }
 
 .gradient-to-b {
   background: linear-gradient(to bottom, #FF0000 10%, #D70000 27%, #B60000 52%, #A30000 77%, #780000 100%);
+}
+
+*::selection{
+  background: #b10909da; /* Disable this to switch selection color to blue */
+  color: white;
+}
+
+/* Chrome, Edge, and Safari Scrollbar*/
+*::-webkit-scrollbar {
+  width: 11px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #858585;
+  border-radius: 7px;
+  border: 0px none #a09eff;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #cacaca;
 }
 
 /* Infinite Moving Cards CSS*/

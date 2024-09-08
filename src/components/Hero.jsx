@@ -8,7 +8,7 @@ const Hero = () => {
                 <div className="flex flex-wrap">
                     <div className="w-full md:w-1/2 flex justify-center">
                         <div className="flex flex-col justify-center">
-                            <h1 className="hero-title text-5xl font-bold mb-4">
+                            <h1 className="hero-title text-5xl text-[88px] font-bold mb-4">
                                 Small Start.<span className="text-red-500">AI</span>
                             </h1>
                             <p className="text-lg text-[#AFAFAF] mb-8 pr-9">
