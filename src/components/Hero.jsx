@@ -1,10 +1,8 @@
 import React from 'react';
-import Header from './Header';
 
 const Hero = () => {
     return (
         <>
-        <Header />
         <section className=" bg-gradient-to-b from-black/100 to-[#282828]/100 text-white">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between py-12 px-6 pt-0 pb-0">
                 <div className="flex flex-wrap">
@@ -23,12 +21,12 @@ const Hero = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex justify-center pb-3">
+            {/* <div className="flex justify-center pb-3">
                 <div className="bg-red-500 rounded-full h-3 w-3 mx-1"></div>
                 <div className="bg-gray-400 rounded-full h-3 w-3 mx-1"></div>
                 <div className="bg-gray-400 rounded-full h-3 w-3 mx-1"></div>
                 <div className="bg-gray-400 rounded-full h-3 w-3 mx-1"></div>
-            </div>
+            </div> */}
         </section>
         </>
     );
