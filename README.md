@@ -31,6 +31,10 @@ Welcome to the repository for SmallStart.AI's website, a sleek and modern digita
 
 4. Open your browser and navigate to `http://localhost:3000` to view the website.
 
+## Contributions
+
+Contributions are welcome! If you have any ideas, suggestions, or bug fixes, feel free to open an issue or submit a pull request. Please make sure to follow the code of conduct.
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/alpharsh/smallstart?tab=MIT-1-ov-file) file for details.
