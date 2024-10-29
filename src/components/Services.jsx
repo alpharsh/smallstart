@@ -52,7 +52,7 @@ const Services = () => {
   };
 
   return (
-    <section className="bg-black md:mt-20 text-white py-12 px-6 mx-auto md:w-3/4 relative">
+    <section className="bg-black md:mt-20 text-white py-12 px-6 mx-auto lg:max-w-[1200px] md:w-3/4 relative">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl font-bold mb-4">What We Offer</h2>
         <p className="text-lg mb-8 text-[#AFAFAF] mx-auto md:w-2/3">
