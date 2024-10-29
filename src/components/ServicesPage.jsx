@@ -13,7 +13,7 @@ const ServicesPage = () => {
         </div>
       </div>
 
-      <section className="text-white py-12 pb-0 px-6">
+      <section className="text-white py-12 lg:max-w-[1500px] mx-auto pb-0 px-6">
         <div className="container mx-auto space-y-10 md:space-y-20 w-11/12">
           {/* Graphic & Animation Support */}
           <div className="flex flex-col md:flex-row items-center space-y-8 md:space-y-0 md:space-x-8">

@@ -3,7 +3,7 @@ import React from 'react';
 const CallToAction = () => {
   return (
     <div className="flex justify-center items-center min-h-full bg-black py-24 px-4 sm:px-6 lg:px-8">
-      <div className="relative text-white rounded-3xl overflow-hidden mx-auto shadow-lg p-12 text-center bg-gradient-to-b from-[#FF0000] via-[#DE0000] to-[#990000] md:w-3/4 h-auto">
+      <div className="relative text-white rounded-3xl overflow-hidden mx-auto shadow-lg p-12 text-center bg-gradient-to-b from-[#FF0000] via-[#DE0000] to-[#990000] md:w-3/4 h-auto lg:max-w-[1200px]">
         <div className="absolute inset-0 z-0 bg-cover bg-center " style={{ backgroundImage: "url('/texture.png')" }}></div>
         <div className="relative z-0">
           <h4 className="text-2xl font-semibold mb-2 text-[#202020]">ARE YOU READY</h4>
