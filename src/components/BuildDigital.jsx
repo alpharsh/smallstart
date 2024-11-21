@@ -19,7 +19,7 @@ const BuildDigital = () => {
           <div className='w-full md:w-1/2 flex justify-center items-center'>
             <div className='flex flex-col justify-center'>
               <h3 className="md:text-5xl text-4xl font-bold mb-4">Who We Are ?</h3>
-              <p className="text-lg text-[#AFAFAF]">
+              <p className="text-lg text-[#AFAFAF] leading-tight">
                 At SmallStart, we offer a range of services to help your business succeed. From app development and website development to digital marketing and more, we have everything you need to take your business to the next level.
               </p>
             </div>
@@ -36,7 +36,7 @@ const BuildDigital = () => {
           <div className='w-full md:w-1/2 flex justify-center items-center'>
             <div className='flex flex-col justify-center'>
               <h3 className="md:text-5xl text-4xl font-bold mb-4">Built for Your Business</h3>
-              <p className="text-lg text-[#AFAFAF]">
+              <p className="text-lg text-[#AFAFAF] leading-tight">
                 At SmallStart, we offer a range of services to help your business succeed. From app development and website development to digital marketing and more, we have everything you need to take your business to the next level.
               </p>
             </div>

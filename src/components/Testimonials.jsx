@@ -42,7 +42,7 @@ const Testimonials = () => {
             </div>
             <div className="flex-1 pt-14 flex flex-col justify-between items-center text-center">
               <blockquote className="md:px-4">
-                <p className="text-lg leading-7 italic">"{testimonial.text}"</p>
+                <p className="text-lg leading-6 italic">"{testimonial.text}"</p>
               </blockquote>
               <div className="mt-6">
                 <p className="text-base font-semibold">
