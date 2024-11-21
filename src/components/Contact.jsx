@@ -5,8 +5,8 @@ const Contact = () => {
     <div className="py-12 px-4">
       {/* Heading Section */}
       <div className="text-center mb-12">
-        <h1 className="text-4xl md:text-6xl font-bold text-red-500 hero-title">
-          Get in Touch
+        <h1 className="text-4xl md:text-6xl text-white font-bold hero-title">
+          Get in <span className="text-red-500">Touch</span>
         </h1>
         <p className="text-gray-300 mt-4 text-lg">
           We'd love to hear from you! Fill out the form below or reach us
