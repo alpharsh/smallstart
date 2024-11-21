@@ -6,7 +6,7 @@ const Contact = () => {
       {/* Heading Section */}
       <div className="text-center mb-12">
         <h1 className="text-4xl md:text-6xl text-white font-bold hero-title">
-          Get in <span className="text-red-500">Touch</span>
+          Get in <span className="text-red-500 hero-title">Touch</span>
         </h1>
         <p className="text-gray-300 mt-4 text-lg">
           We'd love to hear from you! Fill out the form below or reach us
