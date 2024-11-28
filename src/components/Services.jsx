@@ -27,7 +27,7 @@ const services = [
     image: 'https://images.unsplash.com/photo-1558174685-430919a96c8d?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    title: 'Review Seeding',
+    title: 'Recruitment & Staffing Services',
     description: 'Build trust and credibility with authentic reviews that highlight your brand’s strengths and attract new customers.',
     image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
